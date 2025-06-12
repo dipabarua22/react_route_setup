@@ -13,15 +13,19 @@ const NavBar = () => {
       <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
        <li><Link to='/'>Home</Link></li>
       <li><Link to='/about'>About</Link></li>
+      <li><Link to='/fetch'>Fetch</Link></li>
+      <li><Link to='/fetchbooks'>Fetchbooks</Link></li>
       <li><Link to= '/contact'>Contact</Link></li>
       </ul>
     </div>
-    <a className=" bg-red-500 p-2 rounded-xl shadow-xl">React Route Setup</a>
+    <a className=" bg-blue-500 p-2 rounded-xl shadow-xl">library-lab</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
       <li><Link to='/'>Home</Link></li>
       <li><Link to='/about'>About</Link></li>
+      <li><Link to='/fetch'>Fetch</Link></li>
+      <li><Link to='/fetchbooks'>Fetchbooks</Link></li>
       <li><Link to= '/contact'>Contact</Link></li>
       
     </ul>
@@ -33,3 +37,19 @@ const NavBar = () => {
 };
 
 export default NavBar;
+
+//CRUD
+
+//CREATE=POST
+//READ=GET
+//UPDATE=PUT,PATCH
+//DELETE=DELETE
+//[]
+
+//{}
+
+//[
+//  { }
+ // {}
+  //{}
+//]

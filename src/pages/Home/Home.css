@@ -1,0 +1,60 @@
+.dashboard {
+  display: flex;
+  font-family: Arial, sans-serif;
+}
+
+.sidebar {
+  width: 220px;
+  background-color: #222d32;
+  color: white;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin: 15px 0;
+  cursor: pointer;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  background: #ecf0f5;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.summary-cards,
+.stats-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  font-size: 2rem;
+  margin-right: 15px;
+}
